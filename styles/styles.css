@@ -44,7 +44,25 @@ body {
     gap: 16px;
 }
 
-.header button {
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.title-img img {
+    width: 100%;
+    height: auto;
+    flex: 1;
+    max-width: 500px;
+}
+.title-text {
+    flex: 1;
+}
+
+.title-text button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: bold;
@@ -53,14 +71,80 @@ body {
     border: #3882F6 solid 2px;
 }
 
-.title-container {
+/*.body {
+    padding: 0 100px;
+    padding-bottom: 40px;
+    background-color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 100px;
+}*/
+
+.information-container {
+    padding: 0 100px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.title-container img {
-    height: 250px;
-    width: auto;
+.information-container h4 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 40px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img-container img {
+    width: 150px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.img-container p {
+    width: 150px;
+    height: auto;
+    text-align: center;
+    flex: 1;
+}
+
+.quote-container {
+    padding: 20px 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 750px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.signature {
+    font-weight: 900;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
