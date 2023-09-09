@@ -128,6 +128,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .quote {
@@ -147,4 +148,52 @@ body {
     display: flex;
     flex-direction: column;
     align-items: end;
+}
+
+.action-container {
+    margin: 50px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border: solid 2px #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 50px;
+}
+
+.call-to-action h5 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sig-up p {
+    font-weight: 200;
+    flex: 0;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    width: 120px;
+}
+
+.footer {
+    margin: 0;
+    padding: 2px 0;
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    font-size: 10px;
 }
